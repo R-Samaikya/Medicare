@@ -1,0 +1,320 @@
+.hero{
+
+min-height:90vh;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:70px 8%;
+
+background:
+linear-gradient(
+135deg,
+#eff6ff,
+#ecfeff
+);
+
+gap:40px;
+
+}
+
+
+
+.hero-text{
+
+max-width:600px;
+
+}
+
+
+.hero-text h1{
+
+font-size:60px;
+
+line-height:1.1;
+
+font-weight:800;
+
+color:#1d4ed8;
+
+}
+
+
+.hero-text p{
+
+font-size:20px;
+
+margin:25px 0;
+
+color:#475569;
+
+}
+
+
+
+.hero-text button{
+
+border:none;
+
+padding:16px 35px;
+
+border-radius:50px;
+
+background:#2563eb;
+
+color:white;
+
+font-size:17px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+
+.hero-text button:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 15px 30px rgba(37,99,235,.3);
+
+}
+
+
+
+
+.hero-box{
+
+
+background:rgba(255,255,255,.8);
+
+backdrop-filter:blur(15px);
+
+padding:40px;
+
+border-radius:30px;
+
+box-shadow:
+0 25px 50px rgba(0,0,0,.12);
+
+width:400px;
+
+}
+
+
+
+.hero-box h2{
+
+color:#2563eb;
+
+font-size:30px;
+
+}
+
+
+
+.hero-box p{
+
+color:#64748b;
+
+}
+
+
+
+
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:15px;
+
+margin-top:35px;
+
+}
+
+
+
+.stats div{
+
+background:white;
+
+padding:20px;
+
+border-radius:20px;
+
+text-align:center;
+
+font-weight:600;
+
+}
+
+
+
+.stats h2{
+
+font-size:28px;
+
+margin-bottom:5px;
+
+}
+
+
+
+
+.services{
+
+padding:80px 8%;
+
+background:white;
+
+}
+
+
+
+.services h1{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:50px;
+
+color:#1e293b;
+
+}
+
+
+
+
+.service-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+gap:25px;
+
+}
+
+
+
+.service-card{
+
+
+background:#ffffff;
+
+padding:35px 25px;
+
+border-radius:25px;
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+
+
+.service-card svg{
+
+width:45px;
+
+height:45px;
+
+color:#2563eb;
+
+margin-bottom:20px;
+
+}
+
+
+
+.service-card h3{
+
+font-size:22px;
+
+margin-bottom:12px;
+
+}
+
+
+
+.service-card p{
+
+color:#64748b;
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+.hero{
+
+flex-direction:column;
+
+}
+
+
+.hero-text h1{
+
+font-size:42px;
+
+}
+
+
+
+.hero-box{
+
+width:100%;
+
+}
+
+
+.service-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+
+
+@media(max-width:500px){
+
+
+.service-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+.home-btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 30px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+
+.home-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
